@@ -1,0 +1,52 @@
+body {
+    font-family: 'Oswald', sans-serif;
+    padding: 25px;
+    margin: 25px;
+    color: #555555;
+
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    font-size: 18px;
+}
+
+div {
+    text-align: center;
+}
+
+a {
+    color: #58d68d;
+}
+
+
+.flex-container {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    -ms-box-orient: horizontal;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex-item {
+    background: rgb(255, 225, 94);
+    padding: 0px;
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    
+    line-height: 50px;
+    color: #555555;
+    font-weight: bold;
+    font-size: 1em;
+    text-align: center;
+}

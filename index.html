@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Note to Self</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="./css/style.css">
+        
+    </head>
+    <body>
+        <form>
+                <input type="button" id="clear_button" value="Clear storage" />
+        </form>
+        <form>
+            <input type="text" id="note_text">
+            <input type="button" id="add_button" value="Add Sticky Note to Self">
+        </form>
+        <ul id="stickies" class="flex-container wrap">
+        </ul>
+    </body>
+       
+    <footer>
+        <script type="text/javascript" src="./js/main.js"></script> 
+        <!--
+        <script>
+            window.onload = function() {
+                var clearButton = document.getElementById("clear_button");
+                clearButton.onclick = clearStorage;
+            }
+            function clearStorage() {
+                localStorage.clear();
+            }
+        </script>
+    -->
+    </footer>
+</html>
+
