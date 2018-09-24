@@ -50,6 +50,7 @@ function addStickyToDOM(key, value) {
     sticky.setAttribute("id", key);
     var span = document.createElement("span");
     span.setAttribute("class", "sticky");
+    sticky.setAttribute("class", "flex-item");
     span.innerHTML = value;
     sticky.appendChild(span);
     stickies.appendChild(sticky);
@@ -99,4 +100,3 @@ function removeStickyFromDOM(key) {
     var sticky = document.getElementById(key);
     sticky.parentNode.removeChild(sticky);
 }
-
