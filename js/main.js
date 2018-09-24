@@ -62,3 +62,5 @@ function createSticky() {
     localStorage.setItem(key, value);
     addStickyToDOM(value);
 }
+
+console.log("Hello World!")
